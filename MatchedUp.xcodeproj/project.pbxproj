@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A15694EF954C0D9386A96D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C0953665E4728A5734219 /* libPods.a */; };
 		7434FB6B199F1E1A001FFA2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7434FB6A199F1E1A001FFA2E /* Foundation.framework */; };
 		7434FB6D199F1E1A001FFA2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7434FB6C199F1E1A001FFA2E /* CoreGraphics.framework */; };
 		7434FB6F199F1E1A001FFA2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7434FB6E199F1E1A001FFA2E /* UIKit.framework */; };
@@ -14,14 +15,23 @@
 		7434FB77199F1E1A001FFA2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7434FB76199F1E1A001FFA2E /* main.m */; };
 		7434FB7B199F1E1A001FFA2E /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7434FB7A199F1E1A001FFA2E /* CCAppDelegate.m */; };
 		7434FB7E199F1E1A001FFA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7434FB7C199F1E1A001FFA2E /* Main.storyboard */; };
-		7434FB81199F1E1A001FFA2E /* CCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7434FB80199F1E1A001FFA2E /* CCFirstViewController.m */; };
-		7434FB84199F1E1A001FFA2E /* CCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7434FB83199F1E1A001FFA2E /* CCSecondViewController.m */; };
 		7434FB86199F1E1A001FFA2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7434FB85199F1E1A001FFA2E /* Images.xcassets */; };
 		7434FB8D199F1E1A001FFA2E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7434FB8C199F1E1A001FFA2E /* XCTest.framework */; };
 		7434FB8E199F1E1A001FFA2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7434FB6A199F1E1A001FFA2E /* Foundation.framework */; };
 		7434FB8F199F1E1A001FFA2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7434FB6E199F1E1A001FFA2E /* UIKit.framework */; };
 		7434FB97199F1E1A001FFA2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7434FB95199F1E1A001FFA2E /* InfoPlist.strings */; };
 		7434FB99199F1E1A001FFA2E /* MatchedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7434FB98199F1E1A001FFA2E /* MatchedUpTests.m */; };
+		7434FBA4199F1FC8001FFA2E /* CCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7434FBA3199F1FC8001FFA2E /* CCLoginViewController.m */; };
+		747C45D119A4514200C68575 /* CCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C45D019A4514200C68575 /* CCConstants.m */; };
+		747C45D519A52ACE00C68575 /* CCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C45D419A52ACE00C68575 /* CCHomeViewController.m */; };
+		747C45DC19A530BF00C68575 /* CCSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C45DB19A530BF00C68575 /* CCSettingsViewController.m */; };
+		7482CD2B19A63A09007CDFF8 /* CCEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482CD2A19A63A09007CDFF8 /* CCEditProfileViewController.m */; };
+		7482CD2F19A640F4007CDFF8 /* CCProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482CD2E19A640F4007CDFF8 /* CCProfileViewController.m */; };
+		7482CD3319ACF4AE007CDFF8 /* CCTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482CD3219ACF4AE007CDFF8 /* CCTestUser.m */; };
+		7482CD3519ACF530007CDFF8 /* ProfileImage1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7482CD3419ACF530007CDFF8 /* ProfileImage1.jpeg */; };
+		7482CD3919AE3D80007CDFF8 /* CCMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482CD3819AE3D80007CDFF8 /* CCMatchViewController.m */; };
+		7482CD3D19AE3EF8007CDFF8 /* CCMatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482CD3C19AE3EF8007CDFF8 /* CCMatchesViewController.m */; };
+		7482CD4119AE45AE007CDFF8 /* CCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482CD4019AE45AE007CDFF8 /* CCChatViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +56,35 @@
 		7434FB79199F1E1A001FFA2E /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		7434FB7A199F1E1A001FFA2E /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		7434FB7D199F1E1A001FFA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7434FB7F199F1E1A001FFA2E /* CCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCFirstViewController.h; sourceTree = "<group>"; };
-		7434FB80199F1E1A001FFA2E /* CCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFirstViewController.m; sourceTree = "<group>"; };
-		7434FB82199F1E1A001FFA2E /* CCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSecondViewController.h; sourceTree = "<group>"; };
-		7434FB83199F1E1A001FFA2E /* CCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSecondViewController.m; sourceTree = "<group>"; };
 		7434FB85199F1E1A001FFA2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7434FB8B199F1E1A001FFA2E /* MatchedUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7434FB8C199F1E1A001FFA2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7434FB94199F1E1A001FFA2E /* MatchedUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchedUpTests-Info.plist"; sourceTree = "<group>"; };
 		7434FB96199F1E1A001FFA2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7434FB98199F1E1A001FFA2E /* MatchedUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchedUpTests.m; sourceTree = "<group>"; };
+		7434FBA2199F1FC8001FFA2E /* CCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLoginViewController.h; sourceTree = "<group>"; };
+		7434FBA3199F1FC8001FFA2E /* CCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoginViewController.m; sourceTree = "<group>"; };
+		747C45CF19A4514200C68575 /* CCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConstants.h; sourceTree = "<group>"; };
+		747C45D019A4514200C68575 /* CCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCConstants.m; sourceTree = "<group>"; };
+		747C45D319A52ACE00C68575 /* CCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHomeViewController.h; sourceTree = "<group>"; };
+		747C45D419A52ACE00C68575 /* CCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHomeViewController.m; sourceTree = "<group>"; };
+		747C45DA19A530BF00C68575 /* CCSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSettingsViewController.h; sourceTree = "<group>"; };
+		747C45DB19A530BF00C68575 /* CCSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSettingsViewController.m; sourceTree = "<group>"; };
+		7482CD2919A63A09007CDFF8 /* CCEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditProfileViewController.h; sourceTree = "<group>"; };
+		7482CD2A19A63A09007CDFF8 /* CCEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditProfileViewController.m; sourceTree = "<group>"; };
+		7482CD2D19A640F4007CDFF8 /* CCProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCProfileViewController.h; sourceTree = "<group>"; };
+		7482CD2E19A640F4007CDFF8 /* CCProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCProfileViewController.m; sourceTree = "<group>"; };
+		7482CD3119ACF4AE007CDFF8 /* CCTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTestUser.h; sourceTree = "<group>"; };
+		7482CD3219ACF4AE007CDFF8 /* CCTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTestUser.m; sourceTree = "<group>"; };
+		7482CD3419ACF530007CDFF8 /* ProfileImage1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ProfileImage1.jpeg; sourceTree = "<group>"; };
+		7482CD3719AE3D80007CDFF8 /* CCMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMatchViewController.h; sourceTree = "<group>"; };
+		7482CD3819AE3D80007CDFF8 /* CCMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMatchViewController.m; sourceTree = "<group>"; };
+		7482CD3B19AE3EF8007CDFF8 /* CCMatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMatchesViewController.h; sourceTree = "<group>"; };
+		7482CD3C19AE3EF8007CDFF8 /* CCMatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMatchesViewController.m; sourceTree = "<group>"; };
+		7482CD3F19AE45AE007CDFF8 /* CCChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCChatViewController.h; sourceTree = "<group>"; };
+		7482CD4019AE45AE007CDFF8 /* CCChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCChatViewController.m; sourceTree = "<group>"; };
+		8DECE0D3B6514043A3B2A5B8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DF7C0953665E4728A5734219 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +95,7 @@
 				7434FB6D199F1E1A001FFA2E /* CoreGraphics.framework in Frameworks */,
 				7434FB6F199F1E1A001FFA2E /* UIKit.framework in Frameworks */,
 				7434FB6B199F1E1A001FFA2E /* Foundation.framework in Frameworks */,
+				35A15694EF954C0D9386A96D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +119,7 @@
 				7434FB92199F1E1A001FFA2E /* MatchedUpTests */,
 				7434FB69199F1E1A001FFA2E /* Frameworks */,
 				7434FB68199F1E1A001FFA2E /* Products */,
+				8DECE0D3B6514043A3B2A5B8 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +139,7 @@
 				7434FB6C199F1E1A001FFA2E /* CoreGraphics.framework */,
 				7434FB6E199F1E1A001FFA2E /* UIKit.framework */,
 				7434FB8C199F1E1A001FFA2E /* XCTest.framework */,
+				DF7C0953665E4728A5734219 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,13 +147,18 @@
 		7434FB70199F1E1A001FFA2E /* MatchedUp */ = {
 			isa = PBXGroup;
 			children = (
+				7482CD3019ACF482007CDFF8 /* CreatedParseUser */,
+				7482CD2C19A640DB007CDFF8 /* Profile */,
+				7482CD3619AE3D56007CDFF8 /* Match */,
+				7482CD3A19AE3EDF007CDFF8 /* Matches */,
+				7482CD3E19AE40DD007CDFF8 /* Chat */,
+				7482CD2819A6398E007CDFF8 /* Edit Profile */,
+				747C45D619A5304000C68575 /* Settings */,
+				747C45D219A52A8A00C68575 /* Home */,
+				7434FBA5199F1FD4001FFA2E /* Login */,
 				7434FB79199F1E1A001FFA2E /* CCAppDelegate.h */,
 				7434FB7A199F1E1A001FFA2E /* CCAppDelegate.m */,
 				7434FB7C199F1E1A001FFA2E /* Main.storyboard */,
-				7434FB7F199F1E1A001FFA2E /* CCFirstViewController.h */,
-				7434FB80199F1E1A001FFA2E /* CCFirstViewController.m */,
-				7434FB82199F1E1A001FFA2E /* CCSecondViewController.h */,
-				7434FB83199F1E1A001FFA2E /* CCSecondViewController.m */,
 				7434FB85199F1E1A001FFA2E /* Images.xcassets */,
 				7434FB71199F1E1A001FFA2E /* Supporting Files */,
 			);
@@ -131,6 +168,9 @@
 		7434FB71199F1E1A001FFA2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7482CD3419ACF530007CDFF8 /* ProfileImage1.jpeg */,
+				747C45CF19A4514200C68575 /* CCConstants.h */,
+				747C45D019A4514200C68575 /* CCConstants.m */,
 				7434FB72199F1E1A001FFA2E /* MatchedUp-Info.plist */,
 				7434FB73199F1E1A001FFA2E /* InfoPlist.strings */,
 				7434FB76199F1E1A001FFA2E /* main.m */,
@@ -157,6 +197,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7434FBA5199F1FD4001FFA2E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7434FBA2199F1FC8001FFA2E /* CCLoginViewController.h */,
+				7434FBA3199F1FC8001FFA2E /* CCLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		747C45D219A52A8A00C68575 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				747C45D319A52ACE00C68575 /* CCHomeViewController.h */,
+				747C45D419A52ACE00C68575 /* CCHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		747C45D619A5304000C68575 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				747C45DA19A530BF00C68575 /* CCSettingsViewController.h */,
+				747C45DB19A530BF00C68575 /* CCSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		7482CD2819A6398E007CDFF8 /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7482CD2919A63A09007CDFF8 /* CCEditProfileViewController.h */,
+				7482CD2A19A63A09007CDFF8 /* CCEditProfileViewController.m */,
+			);
+			name = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		7482CD2C19A640DB007CDFF8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7482CD2D19A640F4007CDFF8 /* CCProfileViewController.h */,
+				7482CD2E19A640F4007CDFF8 /* CCProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		7482CD3019ACF482007CDFF8 /* CreatedParseUser */ = {
+			isa = PBXGroup;
+			children = (
+				7482CD3119ACF4AE007CDFF8 /* CCTestUser.h */,
+				7482CD3219ACF4AE007CDFF8 /* CCTestUser.m */,
+			);
+			name = CreatedParseUser;
+			sourceTree = "<group>";
+		};
+		7482CD3619AE3D56007CDFF8 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				7482CD3719AE3D80007CDFF8 /* CCMatchViewController.h */,
+				7482CD3819AE3D80007CDFF8 /* CCMatchViewController.m */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		7482CD3A19AE3EDF007CDFF8 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				7482CD3B19AE3EF8007CDFF8 /* CCMatchesViewController.h */,
+				7482CD3C19AE3EF8007CDFF8 /* CCMatchesViewController.m */,
+			);
+			name = Matches;
+			sourceTree = "<group>";
+		};
+		7482CD3E19AE40DD007CDFF8 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7482CD3F19AE45AE007CDFF8 /* CCChatViewController.h */,
+				7482CD4019AE45AE007CDFF8 /* CCChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7434FB9C199F1E1A001FFA2E /* Build configuration list for PBXNativeTarget "MatchedUp" */;
 			buildPhases = (
+				195CD0235A8E4209ADB23467 /* Check Pods Manifest.lock */,
 				7434FB63199F1E1A001FFA2E /* Sources */,
 				7434FB64199F1E1A001FFA2E /* Frameworks */,
 				7434FB65199F1E1A001FFA2E /* Resources */,
+				FC51662D70C44C63A0C48E92 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7434FB86199F1E1A001FFA2E /* Images.xcassets in Resources */,
+				7482CD3519ACF530007CDFF8 /* ProfileImage1.jpeg in Resources */,
 				7434FB75199F1E1A001FFA2E /* InfoPlist.strings in Resources */,
 				7434FB7E199F1E1A001FFA2E /* Main.storyboard in Resources */,
 			);
@@ -250,15 +374,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		195CD0235A8E4209ADB23467 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC51662D70C44C63A0C48E92 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7434FB63199F1E1A001FFA2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7434FB84199F1E1A001FFA2E /* CCSecondViewController.m in Sources */,
+				7482CD3919AE3D80007CDFF8 /* CCMatchViewController.m in Sources */,
+				7482CD3319ACF4AE007CDFF8 /* CCTestUser.m in Sources */,
+				747C45D519A52ACE00C68575 /* CCHomeViewController.m in Sources */,
+				747C45D119A4514200C68575 /* CCConstants.m in Sources */,
+				7482CD2F19A640F4007CDFF8 /* CCProfileViewController.m in Sources */,
+				7482CD3D19AE3EF8007CDFF8 /* CCMatchesViewController.m in Sources */,
+				7434FBA4199F1FC8001FFA2E /* CCLoginViewController.m in Sources */,
+				747C45DC19A530BF00C68575 /* CCSettingsViewController.m in Sources */,
 				7434FB7B199F1E1A001FFA2E /* CCAppDelegate.m in Sources */,
-				7434FB81199F1E1A001FFA2E /* CCFirstViewController.m in Sources */,
 				7434FB77199F1E1A001FFA2E /* main.m in Sources */,
+				7482CD4119AE45AE007CDFF8 /* CCChatViewController.m in Sources */,
+				7482CD2B19A63A09007CDFF8 /* CCEditProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +545,7 @@
 		};
 		7434FB9D199F1E1A001FFA2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DECE0D3B6514043A3B2A5B8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -393,6 +559,7 @@
 		};
 		7434FB9E199F1E1A001FFA2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DECE0D3B6514043A3B2A5B8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -463,6 +630,7 @@
 				7434FB9E199F1E1A001FFA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7434FB9F199F1E1A001FFA2E /* Build configuration list for PBXNativeTarget "MatchedUpTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +639,7 @@
 				7434FBA1199F1E1A001FFA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
